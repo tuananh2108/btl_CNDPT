@@ -7,6 +7,10 @@
     border-radius: 1rem !important;
 }
 
+.rounded-5 {
+    border-radius: 0.55rem !important;
+}
+
 .rounded-top-lg {
     border-top-right-radius: 1rem !important;
     border-top-left-radius: 1rem !important;
@@ -18,4 +22,45 @@
 
 .text-blue {
     color: #1b78df !important;
+}
+
+.text-stoke {
+    color: #1b78df;
+    -webkit-text-fill-color: white; /* Will override color (regardless of order) */
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #1b78df;
+}
+
+.bg-blue {
+    background-color: #eff7ff !important;
+}
+
+.w-80 {
+    width: 80% !important;
+}
+
+.fs-custom {
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+.banner {
+    position: relative;
+}
+
+.navbar {
+    position: absolute;
+}
+
+.banner-description {
+    position: absolute;
+    top: 36%;
+    left: 20%;
+    font-size: 2.4rem;
+    font-weight: bold;
+    
+    color: rgb(8, 17, 95);
+    -webkit-text-fill-color: rgb(255, 0, 0);
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgb(8, 17, 95);
 }
