@@ -1,0 +1,21 @@
+.bg-img {
+    background: url(../img/bg_lydo.jpg) no-repeat top center;
+    background-size: 100%;
+}
+
+.rounded-4 {
+    border-radius: 1rem !important;
+}
+
+.rounded-top-lg {
+    border-top-right-radius: 1rem !important;
+    border-top-left-radius: 1rem !important;
+}
+
+.shadow-custom {
+    box-shadow: 7px 8px 10px -13px;
+}
+
+.text-blue {
+    color: #1b78df !important;
+}
