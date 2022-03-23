@@ -59,6 +59,9 @@
 .navbar {
     position: absolute;
 }
+.subnavbar{
+    transform: translateY(-50px);
+}
 
 .banner-description {
     position: absolute;
@@ -68,3 +71,11 @@
     -webkit-user-select: none;
     user-select: none;
 }
+.btnAnimation{
+    animation: mymove 1s ease-in-out infinite ;
+}
+
+@keyframes mymove {
+    0%, 100% {transform: translateY(-5px);}
+    50% {transform: translateY(+5px);}
+  }
