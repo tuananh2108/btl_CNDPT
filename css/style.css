@@ -24,11 +24,19 @@
     color: #1b78df !important;
 }
 
-.text-stoke {
+.text-stoke-white {
+    font-size: 2.5rem !important;
     color: #1b78df;
-    -webkit-text-fill-color: white; /* Will override color (regardless of order) */
+    -webkit-text-fill-color: white;
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: #1b78df;
+}
+.text-stoke-danger {
+    color: rgb(8, 17, 95);
+    font-size: 3rem !important;
+    -webkit-text-fill-color: rgb(255, 0, 0);
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgb(8, 17, 95);
 }
 
 .bg-blue {
@@ -56,11 +64,7 @@
     position: absolute;
     top: 36%;
     left: 20%;
-    font-size: 2.4rem;
     font-weight: bold;
-    
-    color: rgb(8, 17, 95);
-    -webkit-text-fill-color: rgb(255, 0, 0);
-    -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: rgb(8, 17, 95);
+    -webkit-user-select: none;
+    user-select: none;
 }
